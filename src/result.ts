@@ -36,7 +36,7 @@ export type Failure = {
    * The original value passed through so data inspection can be done after failure.
    * value is `any` here because its argument in `validate` is `any` type.
    */
-  value: any;
+  valueInvalidated: any;
 };
 
 /**
